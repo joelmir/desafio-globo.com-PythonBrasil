@@ -1,4 +1,4 @@
-
+#encoding:utf-8
 
 def frequencia(string_qualquer):
   '''
@@ -30,5 +30,6 @@ def frequencia(string_qualquer):
 
 if __name__ == '__main__':
   import doctest
-  print doctest.testmod()
-  print frequencia('blabla')
+  print 'Testes:\n' ,doctest.testmod() ,'\n\nCódigo:'
+
+  print frequencia('pythonBrasil9')
