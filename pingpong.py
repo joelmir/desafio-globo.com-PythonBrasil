@@ -1,4 +1,10 @@
 # encoding: utf-8
+"""
+Pingpong Code
+
+Running tests:
+$ python pingpong.py test
+"""
 
 def pingpong(n):
     """
